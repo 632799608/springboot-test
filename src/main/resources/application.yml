@@ -5,3 +5,5 @@ spring:
     username: dba_test
     password: dba_test
     url: jdbc:mysql://lxcloud-mysql:3306/lxcloud-test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+server:
+  port: 9876
