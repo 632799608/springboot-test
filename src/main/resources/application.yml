@@ -1,0 +1,7 @@
+# 数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: dba_test
+    password: dba_test
+    url: jdbc:mysql://lxcloud-mysql:3306/lxcloud-test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
